@@ -1,0 +1,95 @@
+/* =================================
+  Base Styles
+==================================== */
+
+.homepage-spotlight, .homepage-slide, .spotlight-controls {
+  display: flex;
+}
+
+.flex-nav-bar, ul {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-nav-bar ul {
+
+
+}
+
+.homepage-spotlight {
+  flex-direction:column;
+}
+
+.homepage-slide {
+  flex-direction: column;
+}
+
+.homepage-slide h1, p {
+  margin: 20px;
+}
+
+.spotlight-controls {
+  height: 50px;
+  flex-direction: row;
+  background-color: #474c56;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-spotlight img {
+  width: 100vw;
+}
+
+.homepage-slide-selectors {
+display: inline-block;
+width: 10px;
+height: 10px;
+background-color: #9d9c9c;
+border: 1px solid #9d9c9c;
+border-radius: 10px;
+}
+
+.carousel-selectors {
+  margin: 20px;
+}
+
+.carousel-button {
+  background-color: #393d44;
+  border-radius: 7px;
+  font-size: 15px;
+  padding: 10px 15px;
+  line-height: 1;
+  margin: 20px;
+}
+
+.flex-search-box {
+  height: 40px;
+  width: 180px;
+  border: 1px solid #999;
+  color: #999;
+}
+
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+
+}
+
+@media (min-width: 1024px) {
+
+.content {
+  width: 1024px;
+  margin: auto;
+}
+
+}

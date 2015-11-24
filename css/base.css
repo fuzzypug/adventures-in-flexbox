@@ -1,0 +1,115 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+}
+
+.row {
+  padding: 50px 0;
+}
+
+
+.dark-grey {
+  background-color: #474c56;
+  color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+	font-size: .95em;
+}
+h2,
+h3,
+a {
+	color: #093a58;
+}
+h1,
+h2,
+h3 {
+	margin-top: 0;
+}
+a {
+	text-decoration: none;
+  color: #0085b2;
+}
+
+a:hover {
+  color: #006482;
+}
+
+img {
+	max-width: 100%;
+}
+
+.product-item{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+
+.product-item h2 {
+  background-color: #00bcda;
+padding: 8px 20px;
+font-size: 20px;
+color: #fff;
+margin: -20px -20px 0px -20px;
+display: block;
+}
+
+.product-item li a {
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.product-item p {
+  font-size: 17px;
+  color: #000;
+  margin-top: 0px;
+}
+
+.product-item img {
+  padding: 20px 0px;
+}
+
+
+.featured-link-list {
+  padding-top: 10px;
+}
+
+.featured-link-list li {
+  padding: 7px 0px;
+}
+
+.featured-link-list li:nth-child(2) {
+  border-top: solid 1px #bbb;
+}
+
+.featured-link-list li:last-child {
+  padding-bottom: 0px;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.main-header,
+	.featured-grid,
+  .footer-inner{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
