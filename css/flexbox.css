@@ -1,0 +1,44 @@
+/* =================================
+  Base Styles
+==================================== */
+
+  .featured-grid, .product-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product-item {
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1 2 275px;
+  }
+  .product-item p {
+    margin-bottom: auto;
+  }
+
+  .featured-link-list {
+    margin-top: auto;
+  }
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 750px) {
+  .featured-grid{
+    justify-content: space-between;
+  }
+  .product-item {
+
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .featured-grid {
+    flex-wrap: nowrap;
+  }
+
+}
